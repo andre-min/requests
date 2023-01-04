@@ -16,6 +16,3 @@ def test_list():
     assert isinstance (response, list)
     assert "id" in response[0]
     assert "MGLT" in response[0]
-
-    print()
-    print(response)

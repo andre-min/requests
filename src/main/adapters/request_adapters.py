@@ -1,7 +1,7 @@
 from fastapi import Request as RequestFastApi
 from typing import Callable
 
-async def request_adapters(request: RequestFastApi, callback: callable):
+async def request_adapter(request: RequestFastApi, callback: callable):
     ''' FastApi adapters '''
 
     body = None
